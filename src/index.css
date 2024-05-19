@@ -1,0 +1,46 @@
+body {
+  font-family: monospace;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-list li {
+  width: 33.33%; /* Each row will have three columns */
+  box-sizing: border-box;
+  padding: 5px;
+  text-align: center;
+}
+
+.top-information {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.top-information h1 {
+  margin: 0;
+  flex: 1;
+  text-align: center;
+}
+
+.resume-container {
+  border: 1px solid hsla(0, 0%, 0%, 0.5);
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.title {
+  color: rgb(67, 255, 67);
+  margin-bottom: 0px;
+}
+
+.job-desc {
+  margin-top: 0px;
+}
